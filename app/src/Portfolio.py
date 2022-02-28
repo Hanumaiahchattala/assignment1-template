@@ -2,3 +2,9 @@
 #1. ID: unique numerical identifier of the porfoltio
 #2. Description: description of the porfoltio (e.g., Finance/Real Estate/Tech)
 #3. Stocks: List of stocks in the portfolio
+
+class portfolio():
+    def init(self,ID,Description,Stocks):
+        self.ID = ID
+        self.Description = Description
+        self.Stocks = Stocks
